@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: lavender_151/udagram-frontend:v1
+        - image: lavender151/udagram-frontend:v1
           name: frontend
           ports:
             - containerPort: 80
@@ -25,5 +25,5 @@ spec:
               memory: "64Mi"
               cpu: "250m"
             limits:
-              memory: "2048Mi"
+              memory: "1024Mi"
               cpu: "500m"
